@@ -1,6 +1,6 @@
 import React from 'react'
-import Bride from '../assets/images/bride.jpg'
-import Groom from '../assets/images/groom.jpg'
+import gorda from '../assets/images/gorda.jpg'
+import bici from '../assets/images/bici.jpg'
 function Bridegroom () {
   return (
     <div id='couple' className='bridegroom clear section-padding bg-pink'>
@@ -13,18 +13,19 @@ function Bridegroom () {
             >
               <div className='img'>
                 {' '}
-                <img src={Bride} alt='' />{' '}
+                <img src={gorda} alt='' />{' '}
               </div>
               <div className='info valign'>
                 <div className='full-width'>
                   <h6>
-                    Chanchina <i className='ti-heart'></i>
+                    Andi <i className='ti-heart'></i>
                   </h6>{' '}
                   <span>La Novia</span>
                   <p>
                     Chanchina es una niña de 25 años que decidio casarse con
                     el chanchin, un cazador furtivo de zuris.
-                    Espero que sean muy felices.
+                    Espero que sean muy felices. Estoy probando nuevos 
+                    renglones para ver el tema del tamaño.
                   </p>
                   <div className='social'>
                     <div className='full-width'>
@@ -53,12 +54,12 @@ function Bridegroom () {
             >
               <div className='img'>
                 {' '}
-                <img src={Groom} alt='' />{' '}
+                <img src={bici} alt='' />{' '}
               </div>
               <div className='info valign'>
                 <div className='full-width'>
                   <h6>
-                    chanchin <i className='ti-heart'></i>
+                    Leo <i className='ti-heart'></i>
                   </h6>{' '}
                   <span>El novio</span>
                   <p>

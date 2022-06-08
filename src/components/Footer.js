@@ -10,7 +10,7 @@ function Footer () {
               <a href='/'>
                 <img src={Logo} alt='flores' />
                 <span>
-                  Chanchina <small>&</small> Chachi
+                  Andi <small>&</small> Leo
                 </span>
               </a>
             </h2>

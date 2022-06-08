@@ -19,7 +19,7 @@ function Sidebar () {
           <a href='/'>
             <img src={Logo} alt='' />
             <span>
-              Chanchina <small>&</small> Chanchi
+              Leo <small>&</small> Andi
             </span>
             <h6>03.08.2022</h6>
           </a>
@@ -32,18 +32,18 @@ function Sidebar () {
             <li>
               <a href='#couple'>Pareja</a>
             </li>
-            <li>
-              <a href='#story'>Nuestra historia</a>
-            </li>
-            <li>
+            {/* <li>
               <a href='#organization'>Organizacion</a>
-            </li>
-            <li>
-              <a href='#gallery'>Fotos</a>
-            </li>
+            </li> */}
             <li>
               <a href='#whenwhere'>Cuando & Donde</a>
             </li>
+            <li>
+              <a href='#story'>Regalo</a>
+            </li>
+            {/* <li>
+              <a href='#gallery'>Fotos</a>
+            </li> */}
             <li>
               <a href='#rsvp'>R.S.V.P</a>
             </li>
@@ -53,7 +53,7 @@ function Sidebar () {
           {' '}
           <span className='separator'></span>
           <p>
-            Chanchina & Chanchi
+            Leo & Andi
             <br />
             3 Septiembre 2022, Salta, Argentina
           </p>

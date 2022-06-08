@@ -10,7 +10,7 @@ function Header () {
         <div className='row'>
           <div className='col-md-12 text-center caption'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
-              Chanchina & Chanchi
+              Leo & Andi
             </h1>
             <h5 className='animate-box' data-animate-effect='fadeInUp'>
               3 Septiembre, 2022 – Salta

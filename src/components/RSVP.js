@@ -29,15 +29,15 @@ function RSVP () {
                   <input type='text' className='form-control' placeholder='Email' />{' '}
                 </div>
               </div>
-              {/* <div className='col-md-12'>
+              <div className='col-md-12'>
                 <div className='form-group'>
                   <input
                     type='text'
                     className='form-control'
-                    placeholder='Guests'
+                    placeholder='Quienes asistiran?'
                   />{' '}
                 </div>
-              </div> */}
+              </div>
               <div className='col-md-12'>
                 <div className='form-group'>
                   <textarea
@@ -46,7 +46,7 @@ function RSVP () {
                     cols='30'
                     rows='7'
                     className='form-control'
-                    placeholder='Message'
+                    placeholder='Si tienes alguna pregunta o comentario, escríbelo aquí'
                   ></textarea>
                 </div>
               </div>

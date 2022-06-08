@@ -1,5 +1,5 @@
 import React from 'react'
-import chanchi3 from '../assets/images/chanchi3.jpg'
+import regalo from '../assets/images/regalo.jpeg'
 import '../components/Gallery.css';
 function Story () {
   return (
@@ -12,7 +12,7 @@ function Story () {
             <div className='story-img animate-box'>
               <div className='img'>
                 {' '}
-                <img src={chanchi3} className='imagen' alt='' />{' '}
+                <img src={regalo} className='imagen' alt='' />{' '}
                 </div>
               </div>
               <div
@@ -21,25 +21,21 @@ function Story () {
             </div>
           
           <div className='col-md-7 animate-box'>
-            <h4 className='oliven-story-subtitle'>Our love.</h4>
-            <h3 className='oliven-story-title'>Nuestra historia</h3>
+            <h4 className='oliven-story-subtitle'>Thank you.</h4>
+            <h3 className='oliven-story-title'>Regalo</h3>
             <p>
-              Todo empezo cuando coincidimos para hacer unos trabajos practicos
-              para la facultad, ambos pensamos "no se va a fijar en mi", sin embargo
-              pegamos onda, nos fuimos a cazar muchos zuris, perdices y vivimos felices
-              alpistes, necesito que me digas vos que bosta poner aca jajaja.
+              Como regalo de boda te pedimos que nos ayudes a pagar la fiesta abonando una tarjeta de
+              $5500 por persona.
             </p>
             <p>
-              Nos ecanta ir a chamarra, no me encanta tanto errar los tiros
-              pero la vizcacha se movio muy rapido
+              CBU: 2850133440095426630898
             </p>
             <p>
-              Cuando estaba en la parte de atras de la camioneta, el pelado me rompia las bolas
-              que tire, yo sabia que no tenia que tirar por que no se tira al tun tun.
+              Alias: leoyandi
             </p>
-            <h4>Sep 3, 2022, (cuando dijeron que si?)!</h4>
+            <h4>Sep 3, 2022</h4>
             <p>
-              y bueno nada, el josean nos hizo la pagina esta, esta re copada.
+              Muchas gracias! ♥️
             </p>
           </div>
         </div>
