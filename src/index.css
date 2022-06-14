@@ -44,7 +44,7 @@ body {
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.75em;
     color: #888;
@@ -730,7 +730,7 @@ input[type=radio]:checked:before {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    width: 19px;
+    width: 20px;
     height: 1px;
     color: #fff;
     font: bold 14px/.4 Helvetica;
