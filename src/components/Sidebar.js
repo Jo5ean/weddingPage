@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Logo from '../assets/images/logo.png'
-function Sidebar () {
+function Sidebar() {
   const [show, setShow] = useState(false);
 
   const openMenu = (e) => {
@@ -11,7 +11,7 @@ function Sidebar () {
 
   return (
     <>
-      <a href='/' onClick={openMenu} className={`js-oliven-nav-toggle oliven-nav-toggle${show ? ' active': ''}`}>
+      <a href='/' onClick={openMenu} className={`js-oliven-nav-toggle oliven-nav-toggle${show ? ' active' : ''}`}>
         <i></i>
       </a>
       <aside id='oliven-aside'>
@@ -19,7 +19,7 @@ function Sidebar () {
           <a href='/'>
             <img src={Logo} alt='' />
             <span>
-              Leo <small>&</small> Andi
+              Andi <small>&</small> Leo
             </span>
             <h6>03.08.2022</h6>
           </a>
@@ -53,7 +53,7 @@ function Sidebar () {
           {' '}
           <span className='separator'></span>
           <p>
-            Leo & Andi
+            Andi & Leo
             <br />
             3 Septiembre 2022, Salta, Argentina
           </p>

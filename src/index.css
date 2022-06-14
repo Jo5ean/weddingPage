@@ -44,7 +44,7 @@ body {
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.75em;
     color: #888;
@@ -66,7 +66,7 @@ h6 {
 /* paragraph */
 p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
     color: #888;
@@ -103,7 +103,7 @@ img {
 }
 .small,
 small {
-    font-size: 80%;
+    font-size: 90%;
 }
 b,
 strong {
@@ -146,6 +146,7 @@ textarea {
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="text"]:focus,
+input[type="number"]:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus,
@@ -156,6 +157,7 @@ textarea:focus {
 input[type="password"],
 input[type="email"],
 input[type="text"],
+input[type="number"],
 input[type="file"],
 textarea,
 #message,
@@ -171,7 +173,7 @@ textarea,
     display: block;
     width: 100%;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.75em;
     color: #000;
@@ -194,7 +196,7 @@ button {
     margin: 0;
     font-weight: 400;
     position: relative;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 0px;
@@ -222,7 +224,7 @@ label {
     display: inline-block;
     vertical-align: middle;
         font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.75em;
     margin-bottom: 0;
@@ -333,7 +335,7 @@ input[type=radio]:checked:before {
     border-radius: 0;
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.75em;
     font-weight: 400;
 }
@@ -480,7 +482,7 @@ input[type=radio]:checked:before {
 }
 .owl-theme .owl-nav [class*=owl-] {
     color: #FFF;
-    font-size: 12px;
+    font-size: 15px;
     margin: 5px;
     padding: 4px 7px;
     background: #BD945A;
@@ -544,7 +546,7 @@ input[type=radio]:checked:before {
 #oliven-aside .oliven-logo {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -560,7 +562,7 @@ input[type=radio]:checked:before {
     font-weight: 400;
     text-transform: none;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     color: #fff;
 }
 #oliven-aside .oliven-logo h6 {
@@ -568,7 +570,7 @@ input[type=radio]:checked:before {
     font-weight: 400;
     text-transform: none;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 5px;
     color: #000;
     margin-bottom: 5px;
@@ -587,7 +589,7 @@ input[type=radio]:checked:before {
 }
 #oliven-aside .oliven-logo a span {
     display: block;
-    font-size: 36px;
+    font-size: 38px;
     color: #BD945A;
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
@@ -598,7 +600,7 @@ input[type=radio]:checked:before {
 }
 #oliven-aside .oliven-logo a i {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     vertical-align: super;
 }
 #oliven-aside .oliven-main-menu ul {
@@ -623,7 +625,7 @@ input[type=radio]:checked:before {
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.5em;
     letter-spacing: 0.5px;
     -webkit-transition: 0.3s;
@@ -658,7 +660,7 @@ input[type=radio]:checked:before {
     text-align: center;
 }
 #oliven-aside .footer1 p {
-    font-size: 12px;
+    font-size: 15px;
     color: #888;
     letter-spacing: 0.5px;
 }
@@ -853,7 +855,7 @@ body.slide .oliven-nav-toggle {
 }
 .header .caption h5 {
    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     letter-spacing: 5px;
     margin-bottom: 0;
@@ -864,7 +866,7 @@ body.slide .oliven-nav-toggle {
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
     margin: 0 0 15px 0;
-    font-size: 120px;
+    font-size: 125px;
     color: #FFF;
     display: block;
     line-height: 1em;
@@ -883,10 +885,10 @@ body.slide .oliven-nav-toggle {
         background-position: center center;
     }
     .header .caption h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
     .header .caption h5 {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 /* bounce */
@@ -908,7 +910,7 @@ body.slide .oliven-nav-toggle {
     height: 40px;
     line-height: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
 }
 .header .arrow i:hover:after {
     -webkit-transform: scale(1.2);
@@ -925,7 +927,7 @@ body.slide .oliven-nav-toggle {
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 0px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 33px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -936,7 +938,7 @@ body.slide .oliven-nav-toggle {
     color: #000;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 33px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -947,7 +949,7 @@ body.slide .oliven-nav-toggle {
     top: 12px;
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 33px;
     color: #BD945A;
     line-height: 1.25em;
     margin-bottom: 10px;
@@ -958,7 +960,7 @@ body.slide .oliven-nav-toggle {
     top: 12px;
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 63px;
     color: #BD945A;
     line-height: 1.5em;
     margin-bottom: 5px;
@@ -967,7 +969,7 @@ body.slide .oliven-nav-toggle {
     color: #000;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 .oliven-title-meta {
@@ -1002,12 +1004,12 @@ body.slide .oliven-nav-toggle {
   margin-left: 160px;
 }
 .bridegroom .info h6 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 5px;
 }
 .bridegroom .info h6 i {
     color: #BD945A;
-    font-size: 16px;
+    font-size: 19px;
 }
 .bridegroom .info span {
       color: #BD945A;
@@ -1582,7 +1584,7 @@ body.slide .oliven-nav-toggle {
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .footer2 p {
     font-family: 'Cormorant Garamond', serif;
@@ -1863,7 +1865,7 @@ body.slide .oliven-nav-toggle {
 .blog-sidebar .widget-title h6 {
     padding-bottom: 0;
     border-bottom: 1px solid #f1eaea;
-    font-size: 21px;
+    font-size: 25px;
     line-height: 1.75em;
     margin-bottom: 15px;
     text-transform: uppercase;

@@ -22,10 +22,9 @@ function Bridegroom () {
                   </h6>{' '}
                   <span>La Novia</span>
                   <p>
-                    Chanchina es una niña de 25 años que decidio casarse con
-                    el chanchin, un cazador furtivo de zuris.
-                    Espero que sean muy felices. Estoy probando nuevos 
-                    renglones para ver el tema del tamaño.
+                    "Estoy cumpliendo un sueño y me gustaria hacerlo
+                    con ustedes, gracias por estar siempre y espero con todo el corazon
+                    puedan asistir"
                   </p>
                   <div className='social'>
                     <div className='full-width'>
@@ -63,9 +62,9 @@ function Bridegroom () {
                   </h6>{' '}
                   <span>El novio</span>
                   <p>
-                    Cazador furtivo de zuris, decidio pedirle a la Chanchina
-                    que lo acompañe por el resto de sus vidas, en las malas (cunado le erra a la vizcacha)
-                    y en las buenas (cuando le erra a la corzuela)
+                  "Muchas gracias por todo el cariño, 
+                    espero puedan asistir a la fiesta, seguro la vamos a pasar muy bien.
+                    Los espero!"
                   </p>
                   <div className='social'>
                     <div className='full-width'>

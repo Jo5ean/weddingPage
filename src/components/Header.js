@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header () {
+function Header() {
   return (
     <header
       id='home'
@@ -10,10 +10,10 @@ function Header () {
         <div className='row'>
           <div className='col-md-12 text-center caption'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
-              Leo & Andi
+              Andi & Leo
             </h1>
             <h5 className='animate-box' data-animate-effect='fadeInUp'>
-              3 Septiembre, 2022 – Salta
+              Nos casamos | 3 Septiembre, 2022 – Salta
             </h5>
           </div>
         </div>
