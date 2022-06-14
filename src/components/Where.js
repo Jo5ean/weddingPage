@@ -12,6 +12,7 @@ function Where() {
             {' '}
             <span className='oliven-title-meta'>Informacion</span>
             <h2 className='oliven-title'>Cuando & Donde</h2>{' '}
+            <h6>Podes acceder al mapa clickeando en las imagenes 🧭</h6>
           </div>
         </div>
         <div className='row'>
@@ -30,8 +31,10 @@ function Where() {
                 <i className='ti-location-pin'></i>
                 Parroquia nuestra señora de Fatima
                 <br />
-                Caseros 1904
+                📍Caseros 1904
               </p>
+              <br />
+              <br />
               <p>
                 <i className='ti-time'></i> <span>20:00pm – 21:00pm</span>
               </p>
@@ -49,7 +52,7 @@ function Where() {
               <h5>Boda civil</h5>
               <p>
                 <i className='ti-direction-alt'></i> Luego de la ceremonia religiosa los invitamos a presenciar
-                la union civil.
+                la union civil, la misma se realizara en el salon de eventos mediterraneo.
               </p>
               <p>
                 <i className='ti-time'></i> <span>21:30pm</span>
@@ -69,11 +72,14 @@ function Where() {
               <p>
                 <i className='ti-location-pin'></i> Eventos mediterraneo
                 <br />
-                Av. Robustiano Patrón Costas 1023
+                📍Av. Robustiano Patrón Costas 1023
               </p>
+              <br />
+              <br />
               <p>
                 <i className='ti-time'></i> <span>22:00pm - Hasta que salgo el sol</span>
               </p>
+              
               <p>
                 <i className='fa fa-calendar' />
               </p>
