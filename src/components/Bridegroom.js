@@ -22,7 +22,7 @@ function Bridegroom () {
                   </h6>{' '}
                   <span>La Novia</span>
                   <p>
-                    "Estoy cumpliendo un sueño y me gustaria hacerlo
+                    "Estoy cumpliendo un sueño y me gustaria hacerlo realidad
                     con ustedes, gracias por estar siempre y espero con todo el corazon
                     puedan asistir"
                   </p>

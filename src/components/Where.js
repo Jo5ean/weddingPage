@@ -48,7 +48,7 @@ function Where() {
             <div className='content'>
               <h5>Boda civil</h5>
               <p>
-                <i className='ti-direction-alt'></i> Luego de la boda los invitamos a presenciar
+                <i className='ti-direction-alt'></i> Luego de la ceremonia religiosa los invitamos a presenciar
                 la union civil.
               </p>
               <p>
