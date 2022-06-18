@@ -77,7 +77,7 @@ function Where() {
               <br />
               <br />
               <p>
-                <i className='ti-time'></i> <span>22:00pm - Hasta que salgo el sol</span>
+                <i className='ti-time'></i> <span>22:00pm - Hasta que salga el sol</span>
               </p>
               
               <p>
