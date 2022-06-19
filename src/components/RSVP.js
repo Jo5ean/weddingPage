@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com'
 import { storage } from './firebase/firebaseConfig'
 import { ref, uploadBytes } from "firebase/storage"
 import { v4 } from 'uuid'
+import toast from 'react-hot-toast';
 
 function RSVP() {
 
@@ -13,7 +14,7 @@ function RSVP() {
     if (fileUpload == null) return;
     const fileRef = ref(storage, `Recibos de pagos/${fileUpload.name + v4()} `);
     uploadBytes(fileRef, fileUpload).then(() => {
-      alert('Archivo subido correctamente');
+      
     });
   }
 
@@ -25,9 +26,9 @@ function RSVP() {
     emailjs.sendForm('leo&andi', 'template_6n7b3ii', formRef.current, 'QPjdY378W5ZGzBQvO')
       .then((result) => {
         console.log(result.text);
-        alert('Your RSVP has been sent!')
+        toast('Reserva realizada!');
       }, (error) => {
-        alert(error.text)
+        console.log(error.text);
       });
     e.target.reset();
   }
@@ -110,6 +111,7 @@ function RSVP() {
         </div>
       </div>
     </div>
+    
   )
 }
 
