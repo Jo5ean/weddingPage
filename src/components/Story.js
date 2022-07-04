@@ -28,7 +28,7 @@ function Story() {
             <h3 className='oliven-story-title'>Regalo</h3>
             <p>
               Como regalo de boda te pedimos que nos ayudes a pagar la fiesta abonando una tarjeta de
-              $5500 por persona.
+              $6000 por persona.
             </p>
             <p onClick={() => toast('CBU copiado!')}>
               CBU:<CopyToClipboard text='2850133440095426630898'>
