@@ -4,6 +4,7 @@ import { storage } from './firebase/firebaseConfig'
 import { ref, uploadBytes } from "firebase/storage"
 import { v4 } from 'uuid'
 import toast from 'react-hot-toast';
+import "../index.css"
 
 function RSVP() {
 
@@ -70,7 +71,7 @@ function RSVP() {
                   />{' '}
                 </div>
               </div>
-              <div className='col-md-12'>
+              {/* <div className='col-md-12'>
                 <div className='form-group'>
                   <label>Attendance</label>
                   <input
@@ -80,7 +81,7 @@ function RSVP() {
                     placeholder='Quienes asistiran?'
                   />{' '}
                 </div>
-              </div>
+              </div> */}
               <div className='col-md-12'>
                 <div className='form-group'>
                   <label>Message</label>
@@ -97,7 +98,7 @@ function RSVP() {
               <div className='col-md-12'>
                 <div className='form-group'>
                   <label>Document</label>
-                  <h6>Si es posible, subi un archivo con la comprobacion de la transferencia, gracias! ♥️</h6>
+                  <h5>Si es posible, subi un archivo con la comprobacion de la transferencia, gracias! ♥️</h5>
                   <input type="file" onChange={(el) => { setFileUpload(el.target.files[0]) }} />{' '}
                 </div>
               </div>

@@ -2027,3 +2027,6 @@ body.slide .oliven-nav-toggle {
         margin: 0 15px;
     }
 }
+input::placeholder {
+    color: green;
+}
