@@ -1,25 +1,25 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 function Countdown () {
-  useEffect(() => {
-    (function () {
-      const second = 1000,
+  /* useEffect(() => {
+    (function () { */
+      /* const second = 1000,
             minute = second * 60,
             hour = minute * 60,
-            day = hour * 24;
+            day = hour * 24; */
             //aca pones el dia del casamiento
-      let elDia = "Sep 3, 2022 00:00:00",
+   /*    let elDia = "Sep 3, 2022 00:00:00",
           countDown = new Date(elDia).getTime(),
           x = setInterval(function() {    
             let now = new Date().getTime(),
-                distance = countDown - now;
-    
+                distance = countDown - now; */
+/*     
             document.getElementById("days").innerText = Math.floor(distance / (day));
             document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour));
             document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute));
-            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second); */
     
-            if (distance < 0) {
+         /*    if (distance < 0) {
               let headline = document.getElementById("headline"),
                   countdown = document.getElementById("countdown"),
                   content = document.getElementById("content");
@@ -29,12 +29,12 @@ function Countdown () {
               content.style.display = "block";
     
               clearInterval(x);
-            }
+            } */
             //seconds
-          }, 0);
-          return null;
+          /* }, 0); */
+    /*       return null;
       }());
-  }, [])
+  }, []) */
   return (
     <div
       id='countdown'
@@ -44,23 +44,23 @@ function Countdown () {
       <div className='container'>
         <div className='row'>
           <div className='section-head col-md-12'>
-            <h4>Inicia nuestra familia en</h4>
+            <h4>Es hoooy, es hoooy!</h4>
           </div>
         </div>
         <div className='row'>
           <div className='col-md-12'>
             <ul>
               <li>
-                <span id='days'></span>Días
+                <span /*id='days'*/></span>0
               </li>
               <li>
-                <span id='hours'></span>Horas
+                <span /*id='hours'*/></span>0
               </li>
               <li>
-                <span id='minutes'></span>Minutos
+                <span /*id='minutes'*/></span>0
               </li>
               <li>
-                <span id='seconds'></span>Segundos
+                <span /*id='seconds'*/></span>0
               </li>
             </ul>
           </div>
